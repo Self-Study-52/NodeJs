@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /VuePress.png
+heroImage: /logo.svg
 actions:
   - text: 快速上手 →
     link: /guide/Node基础API/

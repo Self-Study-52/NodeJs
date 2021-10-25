@@ -12,32 +12,20 @@ module.exports = {
       {
         rel: "icon",
         type: "image/png",
-        sizes: "16x16",
-        href: `/images/icons/favicon-16x16.png`,
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "icon",
-        type: "image/png",
         sizes: "32x32",
-        href: `/images/icons/favicon-32x32.png`,
+        href: `/images/icons/nodeJs.png`,
       },
     ],
     [
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
-    [
-      "link",
-      { rel: "apple-touch-icon", href: `/images/icons/apple-touch-icon.png` },
-    ],
+    ["link", { rel: "apple-touch-icon", href: `/images/icons/nodeJs.png` }],
     [
       "link",
       {
         rel: "mask-icon",
-        href: "/images/icons/safari-pinned-tab.svg",
+        href: "/images/icons/nodeJs.png",
         color: "#3eaf7c",
       },
     ],
@@ -54,6 +42,7 @@ module.exports = {
   themeConfig: {
     logo: "https://avatars.githubusercontent.com/u/92788671?s=200&v=4",
     docsDir: "docs",
+    navbar: require("./navbar"),
     sidebar: {
       collapsable: false,
       "/guide/": require("./sidebar"),
